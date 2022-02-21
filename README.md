@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-IDinheiro Challenge
+Lets code Challenge
 </h1>
 
 <p align="center">Application built for answer company challenge</p>
@@ -21,19 +21,21 @@ IDinheiro Challenge
 
 - Next.js
 - Typescript
-- Incremental Static Generation
 - Styled components
 - Jest
 - Axios
 - Clean architecture
 - Eslint
 - Prettier
+- Unform
 
 ## Features
 
-- List comic characters.
-- Search comic characters.
-- Detail comic character.
+- List cards with title and description.
+- Create card.
+- Update card.
+- Delete card.
+- Change card status.
 
 ## How to download dependencies
 
@@ -48,12 +50,6 @@ First of all, create a file .env.local and copy content in env.local.example add
 
 ```
   yarn dev
-```
-
-## How to test Static Generation
-
-```
-  yarn build && yarn start
 ```
 
 ## How to execute tests
